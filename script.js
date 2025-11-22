@@ -1,5 +1,27 @@
-// Script para navegación suave, scroll spy y animaciones
+// Script para navegación suave, scroll spy, animaciones y navbar transparente
 document.addEventListener('DOMContentLoaded', function() {
+    // Navbar transparente con scroll
+    const navbar = document.querySelector('nav');
+    let lastScrollTop = 0;
+
+    function handleNavbarTransparency() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 100) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+
+        lastScrollTop = scrollTop;
+    }
+
+    // Aplicar estado inicial
+    handleNavbarTransparency();
+
+    // Event listener para scroll
+    window.addEventListener('scroll', handleNavbarTransparency);
+
     // Navegación suave
     const navLinks = document.querySelectorAll('.navbar-nav a[href^="#"]');
 

@@ -1,0 +1,23 @@
+{
+  "name": "pagina-empleabilidad",
+  "version": "1.0.0",
+  "description": "Lumina QR es un emprendimiento dedicado a la creación de velas artesanales únicas que combinan la artesanía tradicional con la tecnología moderna. Cada vela viene acompañada de un código QR que revela la historia detrás de su creación, ofreciendo una experiencia interactiva y personalizada.",
+  "main": "generate-qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres-Developer-23/Lumina-QR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres-Developer-23/Lumina-QR/issues"
+  },
+  "homepage": "https://github.com/Andres-Developer-23/Lumina-QR#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

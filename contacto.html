@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Lumina QR - Velas Artesanales</title>
+    <meta name="description" content="Contacta con Lumina QR. Información de ubicación, teléfono, email. Formulario de contacto para pedidos y consultas. Ubicados en Cienaga, Magdalena.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <img src="logo/logo.png" alt="Lumina QR Logo" class="me-2" style="height: 40px;">Lumina QR
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proceso.html">Proceso</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contacto" class="py-5 bg-primary text-white" style="padding-top: 6rem;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Contáctanos</h2>
+                <p class="lead">¿Listo para iluminar tu vida con Lumina QR?</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nombre" class="form-label fw-bold">Nombre</label>
+                                        <input type="text" class="form-control form-control-lg" id="nombre" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label fw-bold">Email</label>
+                                        <input type="email" class="form-control form-control-lg" id="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="telefono" class="form-label fw-bold">Teléfono</label>
+                                        <input type="tel" class="form-control form-control-lg" id="telefono">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+                                        <textarea class="form-control form-control-lg" id="mensaje" rows="4" placeholder="Cuéntanos sobre tu interés en nuestros productos..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="newsletter">
+                                            <label class="form-check-label" for="newsletter">
+                                                Suscribirme al newsletter para recibir ofertas especiales
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5 py-3 fw-bold">
+                                            <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-md-4">
+                    <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
+                    <h5>Ubicación</h5>
+                    <p>Cienaga Magdalena, Colombia</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-phone fa-2x mb-3"></i>
+                    <h5>Teléfono</h5>
+                    <p>+57 3105956453</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-envelope fa-2x mb-3"></i>
+                    <h5>Email</h5>
+                    <p>info@luminaqr.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold text-primary mb-3">Lumina QR</h5>
+                    <p class="mb-3">Velas artesanales que iluminan con historia. Tecnología QR que conecta emociones y sostenibilidad.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="text-light fs-4"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">Productos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="productos.html" class="text-light text-decoration-none">Velas Relax</a></li>
+                        <li><a href="productos.html" class="text-light text-decoration-none">Velas Energía</a></li>
+                        <li><a href="productos.html" class="text-light text-decoration-none">Velas Amor</a></li>
+                        <li><a href="productos.html" class="text-light text-decoration-none">Personalizadas</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">Empresa</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="acerca.html" class="text-light text-decoration-none">Sobre Nosotros</a></li>
+                        <li><a href="proceso.html" class="text-light text-decoration-none">Proceso</a></li>
+                        <li><a href="index.html" class="text-light text-decoration-none">Testimonios</a></li>
+                        <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="mb-3">Suscríbete para recibir ofertas exclusivas y novedades.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu email">
+                        <button class="btn btn-primary" type="button">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Lumina QR. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <small>Proyecto académico - UNICARIBE</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
