@@ -10,7 +10,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "moon",
                 color: "primary",
-                imagen: "productos/velas-relax.jpg",
+                imagen: "productos/velas-relax.png",
                 qr_url: "qr-codes/producto-1.png",
                 detalles: {
                     aromas: ["Lavanda", "Vainilla"],
@@ -27,7 +27,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "sun",
                 color: "success",
-                imagen: "productos/velas-energia.jpg",
+                imagen: "productos/velas-energia.png",
                 qr_url: "qr-codes/producto-2.png",
                 detalles: {
                     aromas: ["Limón", "Menta", "Naranja"],
@@ -44,7 +44,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "heart",
                 color: "warning",
-                imagen: "productos/velas-amor.jpg",
+                imagen: "productos/velas-amor.png",
                 qr_url: "qr-codes/producto-3.png",
                 detalles: {
                     aromas: ["Rosa", "Jazmín", "Vainilla"],
@@ -61,7 +61,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "om",
                 color: "info",
-                imagen: "productos/velas-serenidad.jpg",
+                imagen: "productos/velas-serenidad.png",
                 qr_url: "qr-codes/producto-4.png",
                 detalles: {
                     aromas: ["Sándalo", "Jazmín", "Incienso"],
@@ -78,7 +78,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "leaf",
                 color: "success",
-                imagen: "productos/velas-pureza.jpg",
+                imagen: "productos/velas-pureza.png",
                 qr_url: "qr-codes/producto-5.png",
                 detalles: {
                     aromas: ["Eucalipto", "Menta", "Pino"],
@@ -95,7 +95,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "smile",
                 color: "warning",
-                imagen: "productos/velas-alegria.jpg",
+                imagen: "productos/velas-alegria.png",
                 qr_url: "qr-codes/producto-6.png",
                 detalles: {
                     aromas: ["Piña", "Coco", "Vainilla"],
@@ -112,7 +112,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "balance-scale",
                 color: "primary",
-                imagen: "productos/velas-armonia.jpg",
+                imagen: "productos/velas-armonia.png",
                 qr_url: "qr-codes/producto-7.png",
                 detalles: {
                     aromas: ["Lavanda", "Sándalo", "Rosa"],
@@ -129,7 +129,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "moon",
                 color: "info",
-                imagen: "productos/velas-suenos.jpg",
+                imagen: "productos/velas-suenos.png",
                 qr_url: "qr-codes/producto-8.png",
                 detalles: {
                     aromas: ["Lavanda", "Camomila", "Melisa"],
