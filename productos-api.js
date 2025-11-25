@@ -61,7 +61,7 @@ class ProductosAPI {
                 precio: 15000,
                 icono: "om",
                 color: "info",
-                imagen: "productos/velas-serenidad.png",
+                imagen: "productos/Velas-Serenidad.png",
                 qr_url: "qr-codes/producto-4.png",
                 detalles: {
                     aromas: ["Sándalo", "Jazmín", "Incienso"],
